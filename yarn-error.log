@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Админ\AppData\Local\node\corepack\yarn\1.22.19\bin\yarn.js install
+
+PATH: 
+  C:\Users\Админ\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\php-8.2.3;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\Git;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Админ\.symfony5\tmp\chrelao6v2ok540gvlm0\bin;C:\Users\Админ\scoop\shims;C:\Users\Админ\AppData\Local\Microsoft\WindowsApps;C:\Users\Админ\AppData\Roaming\Composer\vendor\bin;C:\Users\Админ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Админ\.platformsh\bin;C:\Users\Админ\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.18.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+npm manifest: 
+  {
+      "devDependencies": {
+          "@babel/core": "^7.17.0",
+          "@babel/preset-env": "^7.16.0",
+          "@hotwired/stimulus": "^3.0.0",
+          "@symfony/stimulus-bridge": "^3.2.0",
+          "@symfony/stimulus-bundle": "file:vendor/symfony/stimulus-bundle/assets",
+          "@symfony/webpack-encore": "^4.0.0",
+          "core-js": "^3.23.0",
+          "regenerator-runtime": "^0.13.9",
+          "webpack": "^5.74.0",
+          "webpack-cli": "^4.10.0",
+          "webpack-notifier": "^1.15.0"
+      },
+      "license": "UNLICENSED",
+      "private": true,
+      "scripts": {
+          "dev-server": "encore dev-server",
+          "dev": "encore dev",
+          "watch": "encore dev --watch",
+          "build": "encore production --progress"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
